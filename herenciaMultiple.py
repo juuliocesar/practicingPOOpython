@@ -20,16 +20,16 @@ class A:
 class B:
     def __init__(self):
         print("Soy de clase B")
-    def b(self):
+    def a(self):
         print("Este método lo heredo de B")
 
-class C(A,B):
+class C(B,A):
     def c(self):
         print("Este método es de C")
 
 
 c = C()
 c.a()
-c.b()
+c.a()
 c.c()
 

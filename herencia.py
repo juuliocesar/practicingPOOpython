@@ -1,7 +1,10 @@
 """
 Herencia: Es la capacidad de una clase de heredar los atributos
-y métodos de otra clase, además de agregar los suyos propios
-o modificar los heredados.
+y métodos de otra clase.
+
+Hasta ahora sabemos que una clase heredada puede fácilmente 
+extender algunas funcionalidades, simplemente añadiendo nuevos
+atributos y métodos, o sobreescribiendo los ya existentes
 """
 
 class Producto:
